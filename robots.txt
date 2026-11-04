@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://murphy-cornell-lab.github.io/sitemap.xml
