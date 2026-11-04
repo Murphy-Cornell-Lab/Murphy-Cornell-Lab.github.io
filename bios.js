@@ -9,5 +9,5 @@ const memberBios={
 };
 for(const member of currentTeam){const bio=memberBios[member.name]||{role:'Undergraduate Researcher',institution:'Cornell University',bio:''};member.role=bio.role;memberBios[member.name]=bio}
 const peopleBeforeBios=pages.people;
-pages.people=()=>{let html=peopleBeforeBios();for(const member of currentTeam){const b=memberBios[member.name];html=html.replace(`<p>${safe(member.role)}</p></article>`,`<p class="member-role">${safe(b.role)}</p><p class="member-institution">${safe(b.institution)}</p>${b.bio?`<p class="member-bio">${safe(b.bio)}</p>`:''}${b.source?`<a class="bio-source" href="${safe(b.source)}" target="_blank" rel="noopener">Profile / research source ↗</a>`:''}</article>`)}return html};
+pages.people=()=>{let html=peopleBeforeBios();for(const member of currentTeam){const b=memberBios[member.name];html=html.replace(`<p>${safe(member.role)}</p></article>`,`<p class="member-role">${safe(b.role)}</p><p class="member-institution">${safe(b.institution)}</p>${b.bio?`<p class="member-bio">${safe(b.bio)}</p>`:''}</article>`)}return html};
 render();
