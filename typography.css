@@ -48,3 +48,9 @@ h3,.card h3,.member h3,.event-row h3,.news-strip h3{font-weight:600;line-height:
 .hero-copy{max-width:590px}.hero p{line-height:1.6}.hero h1 em{font-weight:inherit}
 .footer-brand span{max-width:none;font-weight:400;letter-spacing:0}
 @media(max-width:760px){.hero h1{font-size:clamp(36px,8.8vw,46px)}.hero-copy{max-width:100%}.page-intro h1{letter-spacing:-.035em}}
+
+/* Cornell seal with a quiet, aligned lab wordmark. */
+header .brand{flex-direction:row;align-items:center;gap:16px}header .cornell-seal{width:58px;height:58px;object-fit:contain;flex-shrink:0}.brand-text{display:flex;flex-direction:column;gap:6px}.wordmark-name{font-size:26px}.wordmark-affiliation{font-size:10px;letter-spacing:.1em}
+@media(max-width:1050px){header .brand{gap:12px}header .cornell-seal{width:50px;height:50px}.wordmark-name{font-size:23px}}
+@media(max-width:760px){header .cornell-seal{width:44px;height:44px}.wordmark-name{font-size:22px}.wordmark-affiliation{font-size:9px}header{gap:12px}}
+@media(max-width:390px){header .brand{gap:10px}.wordmark-name{font-size:19px}header .cornell-seal{width:40px;height:40px}}
