@@ -1,4 +1,5 @@
 const portraitSources={
+'Ben Andrew Lin':{file:'ben.jpg?v=20261106',credit:'Photo provided by the lab'},
 'Mengling Zhang':{file:'mengling.jpg',credit:'Photo provided by the lab'},
 'Karli Casler':{file:'karli.jpg',source:'https://www.urmc.rochester.edu/labs/murphy/lab-members'},
 'Noah Reger':{file:'noah.jpg',source:'https://www.sas.rochester.edu/bio/spotlight/archive/2025/2025_05_reger.html'},
